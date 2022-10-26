@@ -96,6 +96,7 @@ p {
   color: #fff;
   font-family: var(--open-sans);
   font-weight: var(--regular);
+  text-transform: capitalize;
   font-size: 18px;
 }
 
@@ -128,6 +129,7 @@ p {
   line-height: 200%;
   color: #fff;
   transition: all linear 0.3s;
+  text-transform: capitalize;
 }
 
 .contact-button:hover {
@@ -277,6 +279,7 @@ p {
 
 .service-left p {
   font-family: var(--nunito);
+  text-transform: capitalize;
   font-size: 18px;
   line-height: 200%;
   color: #29313d;
@@ -343,6 +346,7 @@ p {
 .service-content p {
   font-family: var(--nunito);
   font-weight: var(--regular);
+  text-transform: capitalize;
   font-size: 18px;
   line-height: 140%;
   color: #29313d;
@@ -383,6 +387,7 @@ p {
 .feature-left p {
   font-family: var(--nunito);
   font-weight: var(--regular);
+  text-transform: capitalize;
   color: #29313d;
   font-size: 18px;
   line-height: 200%;
@@ -558,6 +563,7 @@ p {
 .analytics-item h4 {
   font-family: var(--poppins);
   font-weight: var(--medium);
+  text-transform: capitalize;
   color: #29313d;
   font-size: 24px;
   line-height: 140%;
@@ -588,6 +594,7 @@ p {
 .analytics-right-content p {
   font-family: var(--nunito);
   font-weight: var(--regular);
+  text-transform: capitalize;
   font-size: 18px;
   line-height: 200%;
   color: #29313d;
@@ -797,6 +804,7 @@ p {
   display: block;
   padding: 29px 24px;
   background-color: #323232;
+  text-transform: capitalize;
   color: #fff;
   font-family: var(--nunito);
   font-size: 20px;
@@ -943,6 +951,7 @@ seo-form {
 .footer-content p {
   font-family: m=var(--nunito);
   font-weight: var(--regular);
+  text-transform: capitalize;
   font-size: 18px;
   line-height: 180%;
   color: rgba(41, 49, 61, 0.9);
@@ -973,6 +982,7 @@ seo-form {
   font-weight: 140%;
   font-size: 20px;
   color: rgba(41, 49, 61, 0.8);
+  text-transform: capitalize;
 }
 
 .footer-top-category ul li a:hover {
@@ -985,6 +995,7 @@ seo-form {
   font-size: 18px;
   line-height: 180%;
   color: rgba(41, 49, 61, 0.9);
+  text-transform: capitalize;
 }
 
 .footer-link a {
@@ -994,6 +1005,7 @@ seo-form {
   font-size: 18px;
   line-height: 180%;
   color: rgba(41, 49, 61, 0.9);
+  text-transform: capitalize;
 }
 
 /* footer section css end */
