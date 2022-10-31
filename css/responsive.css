@@ -994,6 +994,26 @@
     font-size: 60px;
   }
 
+  .banner-rocket {
+    display: none;
+  }
+
+  .heading h2 {
+    font-size: 36px;
+  }
+
+  .service-content h4 {
+    font-size: 22px;
+  }
+
+  .service-content p {
+    font-size: 16px;
+  }
+
+  .analytics-item h4 {
+    font-size: 15px;
+  }
+
   .seo-bg {
     width: 100%;
     padding-top: 70px;
