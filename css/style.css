@@ -409,6 +409,8 @@ p {
 .analytics-area {
   padding: 30px 0;
   width: 100%;
+  position: relative;
+  z-index: 1;
 }
 
 .analytics-item {
@@ -417,27 +419,25 @@ p {
   text-align: center;
   padding: 30px;
   position: relative;
-  transition: all linear 0.3s;
   margin: 30px 0;
-  z-index: 2;
+  transition: all linear 0.3s;
 }
 
 .analytics-item::after {
   content: "";
   position: absolute;
   bottom: -35px;
-  z-index: 1;
   left: 50%;
   transform: translateX(-50%);
-  display: inline-block;
   width: 0;
   height: 0;
   border-style: solid;
   border-width: 60px 34px 0 34px;
-  border-color: #fff transparent transparent transparent;
+  border-color: transparent transparent transparent transparent;
   visibility: hidden;
   opacity: 0;
   transition: all linear 0.3s;
+  z-index: -1;
 }
 
 /* duplicate item start nth-01 */
